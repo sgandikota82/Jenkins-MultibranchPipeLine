@@ -38,4 +38,11 @@ public class FeatureCTest {
 
     }
 
+    @Test
+    public void checkTrial1() throws IOException {
+
+        System.out.println("Trial Check1!");
+
+    }
+
 }
