@@ -1,0 +1,14 @@
+$testA1 - Thread[Test worker,5,main]
+$testA2 - Thread[Test worker,5,main]
+$testA3 - Thread[Test worker,5,main]
+$testB1 - Thread[Test worker,5,main]
+$testB2 - Thread[Test worker,5,main]
+$testB3 - Thread[Test worker,5,main]
+
+	Trial Check!
+
+$testA1 - Thread[Test worker,5,main]
+
+^00:11:55.125 [Test worker] INFO com.rafaat.demo.FeatureCTest - The List of Movie's i have is 
+
+° /Users/sgandikota/Local Documents/Movies/English/@CC.Ip.Man.4.2019.720p.HC.HDRip.X264.900MB-Pahi.mkv ||| /Users/sgandikota/Local Documents/Movies/English/@CC.The.Gentlemen.2019.720p.WEBDL.mkv ||| /Users/sgandikota/Local Documents/Movies/English/@CC.Knives.Out.2019.720p.WEBRip.mkv ||| /Users/sgandikota/Local Documents/Movies/English/.DS_Store ||| /Users/sgandikota/Local Documents/Movies/English/@CC.Danger.Close.2019.720p.BluRay.x264-@CC_NewRelease.mkv ||| /Users/sgandikota/Local Documents/Movies/English/@CC.1917.2019.720p.WEB-DL.x264-Pahe.mkv ||| /Users/sgandikota/Local Documents/Movies/English/@CC.The.Good.Liar.2019.720p.BluRay.x264.mkv ||| /Users/sgandikota/Local Documents/Movies/English/@CC.Joker.2019.720p.BluRay.x264-@CC_NewRelease.mkv ||| /Users/sgandikota/Local Documents/Movies/English/@CC.Ford.v.Ferrari.2019.720p.BluRay.x264.mkv ||| /Users/sgandikota/Local Documents/Movies/English/@CC.Bloodshot.2020.720p.WEBDL.mkv ||| /Users/sgandikota/Local Documents/Movies/English/@CC.Escape.from.Pretoria.2020.720p.WEB-DL.x264-Pahe.mkv ||| /Users/sgandikota/Local Documents/Movies/English/@CC.6.Underground.2019.720p.NF.WEB-DL.x264-@CC_NewRelease.mkv ||| /Users/sgandikota/Local Documents/Movies/English/A.Bluebird.In.My.Heart.2018.720p.BluRay.x264-@iMediaShare.mp4 ||| /Users/sgandikota/Local Documents/Movies/English/@CC.The.Lighthouse.2019.720p.WEB-DL.x264-@CC_NewRelease.mkv ||| /Users/sgandikota/Local Documents/Movies/English/@CC.Countdown.2019.1080p.BluRay.HEVC.mkv ||| /Users/sgandikota/Local Documents/Movies/English/Conviction.2010.720p.BluRay.x264-@lubokvideo.mp4 ||| /Users/sgandikota/Local Documents/Movies/English/@CC.Maleficent.Mistress.of.Evil.2019.720p.WEB-DL.x264.mkv ||| /Users/sgandikota/Local Documents/Movies/English/@CC.21.Bridges.2019.720p.BluRay.x264-Pahe.mkv ||| /Users/sgandikota/Local Documents/Movies/English/@CC.The.Addams.Family.2019.720p.WEB-DL.x264.mkv ||| /Users/sgandikota/Local Documents/Movies/English/LinksTheIrishman.mkv
