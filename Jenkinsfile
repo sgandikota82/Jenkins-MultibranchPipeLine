@@ -1,19 +1,31 @@
+pipeline {
+    agent any
+
+    stages {
+        stage ('Package  App') {
+            steps {
+                withMaven(maven : 'maven_3_5_0') {
+                    sh 'mvn clean compile'
+                }
+            }
+        }
+
+        stage ('Testing Stage') {
+
+            steps {
+                withMaven(maven : 'maven_3_5_0') {
+                    sh 'mvn test'
+                }
+            }
+        }
 
 
-node('cicd-build'){
-
-stage("Checkout"){
-        scmCheckout{
-        deleteWorkspace = 'false'
+        stage ('Deployment Stage') {
+            steps {
+                withMaven(maven : 'maven_3_5_0') {
+                    sh 'mvn deploy'
+                }
+            }
         }
     }
-
-stage("Package App"){
-        javaPackageApp{
-        goals ="clean build jar -x test --refresh-dependencies"
-        }
-}
-
-
-
 }
