@@ -39,6 +39,14 @@ tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
 }
 
+task copyJar(type: Copy){
+ into('.')
+    into ('build/appBundle'){
+        from "build/libs/${group}-${version}.jar"
+        rename {'app.jar'}
+    }
+}
+
 test {
     useTestNG()
 }
