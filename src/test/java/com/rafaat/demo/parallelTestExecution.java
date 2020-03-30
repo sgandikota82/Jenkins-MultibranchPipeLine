@@ -12,11 +12,13 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Scanner;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -50,6 +52,28 @@ public class parallelTestExecution {
         }
 
 
+
+    }
+
+
+    @Test
+    public void readExcelFromScanner() throws IOException {
+
+        File file = new File("/Users/sgandikota/Local Documents/WorkSpace/Jenkins-MultibranchPipeLine/src/test/resources/test-suites/TestExcel2.xlsx");
+        FileInputStream fis =new FileInputStream(file);
+
+        //Display Excel content using Scanner
+        Scanner scan = new Scanner(fis);
+            while(scan.hasNext()){
+                String data = scan.next();
+                System.out.println("File Data is :" + data);
+
+            }
+
+        //Display Excel content using Files nio
+        Path path = Paths.get("/Users/sgandikota/Local Documents/WorkSpace/Jenkins-MultibranchPipeLine/src/test/resources/test-suites/TestExcel2.xlsx");
+            String fileData=new String(Files.readAllBytes(path),StandardCharsets.UTF_8);
+        System.out.println("File Data from Files nio is :" + System.lineSeparator() + fileData);
 
     }
 
